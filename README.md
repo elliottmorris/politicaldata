@@ -1,5 +1,5 @@
 
-# Politicaldata 
+# Politicaldata 🗳📊
 
 [![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
 
