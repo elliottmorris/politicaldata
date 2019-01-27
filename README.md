@@ -37,11 +37,13 @@ library(politicaldata)
 
 ## A list of functions:
 
-- `get_house_NOMINATE()`: Returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the House of Representatives for a specified congress, else every House member ever.
+- `get_house_nominate()`: Returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. House of Representatives for a specified congress, else every Representative ever.
+- `get_senate_nominate()`: Returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. Senate for a specified congress, else every Senator ever.
 
 ## Data:
 
-- `house_116`: A saved copy of the output from `get_house_NOMINATE(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
+- `house_116`: A saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
+- `senate_116`: The same as the above, bur fot the Senate. Downloaded via `get_senate_nominate(congress=116)`.
 
 
 

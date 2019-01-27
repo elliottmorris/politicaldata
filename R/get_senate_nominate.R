@@ -1,6 +1,6 @@
-#' Get DW-nominate Scores for members of the U.S. House
+#' Get DW-nominate Scores for members of the U.S. Senate
 #'
-#' Returns a datset of nominate scores for House members of the the specified congress,
+#' Returns a datset of nominate scores for Senate members of the the specified congress,
 #' available otherwise at VoteView.com.
 #'
 #' @param congress Number for the congress you're interested in. Defaults to "ALL" to get the most recent scores for every congress.
@@ -14,17 +14,17 @@
 #' \dontrun{
 #'
 #'  ## get the scores for the 116th (2019-2021) congress
-#'  house <- get_house_nominate(congress=116)
+#'  senate <- get_senate_nominate(congress=116)
 #'
 #'  ## returned as a data frame
-#'  house
+#'  senate
 #'
 #' }
 #'
 #' @importFrom utils read.csv
 #'
 #' @export
-get_house_nominate <- function(congress="ALL"){
+get_senate_nominate <- function(congress="ALL"){
   # Input validation
   if (!is.numeric(congress) & congress!="ALL")
     stop("congress must be an object of type numeric unless downloading all data")
@@ -32,19 +32,19 @@ get_house_nominate <- function(congress="ALL"){
   # get the data
   if(congress=="ALL"){
     # if the user wants every congress, simply read and return
-    house_data <- read.csv("https://voteview.com/static/data/out/members/Hall_members.csv",stringsAsFactors = F,encoding = 'UTF-8')
+    senate_data <- read.csv("https://voteview.com/static/data/out/members/Sall_members.csv",stringsAsFactors = F,encoding = 'UTF-8')
   }else{
     # else, get only data from relevant congress
-    link <- sprintf("https://voteview.com/static/data/out/members/H%s_members.csv",congress)
+    link <- sprintf("https://voteview.com/static/data/out/members/S%s_members.csv",congress)
 
-    house_data <- as.data.frame(read.csv(link,stringsAsFactors = F,encoding = 'UTF-8'))
+    senate_data <- as.data.frame(read.csv(link,stringsAsFactors = F,encoding = 'UTF-8'))
 
   }
 
-  # filter to only House members (the president gets roped in)
-  house_data[house_data$chamber == "House",]
+  # filter to only Senate members (the president gets roped in)
+  senate_data[senate_data$chamber == "Senate",]
 
   # return object
-  return(house_data)
+  return(senate_data)
 
 }

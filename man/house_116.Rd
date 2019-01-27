@@ -14,6 +14,6 @@ Data for:
 }
 \details{
 Commands to create:
-     - house_116 <- politicaldata::get_house_NOMINATE(congress = 116); save(house_116,file='data/house_116.RData')
+     - house_116 <- politicaldata::get_house_nominate(congress = 116); save(house_116,file='data/house_116.RData')
 }
 \keyword{datasets}
