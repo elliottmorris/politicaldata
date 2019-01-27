@@ -11,7 +11,9 @@ An R package for acquiring and analyzing political data in R — including polls
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
-For more, see [the package's project file on my blog]() or view the vignettes.
+For more, see [the package's project file on my blog]() or [view the vignettes](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r). You can see how many of these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
+
+
 
 # Installation
 
@@ -46,7 +48,7 @@ _Constantly updating..._
 
 - `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 - `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.
-- `us_polls_history` a dataset of US presidential election polling from the 1980 through 2016 elections
+- `us_polls_history` a dataset of US presidential election polling from the 1980 through 2016 elections.
 
 
 
