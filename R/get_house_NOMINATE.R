@@ -24,8 +24,8 @@
 #' @export
 get_house_NOMINATE <- function(congress="ALL"){
   # Input validation
-  if (!is.numeric(congress))
-    stop("congress must be an object of type numeric")
+  if (!is.numeric(congress) & congress!="ALL")
+    stop("congress must be an object of type numeric unless downloading all data")
 
   # get the data
   if(congress=="ALL"){
