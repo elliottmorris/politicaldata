@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
 
+**Development in progress**
+
 
 An R package for acquiring and analyzing political data in R --- including downloading polling aggregates and microdata, congressional legislator information, and election results.
 
@@ -33,4 +35,13 @@ library(politicaldata)
 
 # Usage
 
-More to come...
+## A list of functions:
+
+- `get_house_NOMINATE()`: Returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the House of Representatives for a specified congress, else every House member ever.
+
+## Data:
+
+- `house_116`: A saved copy of the output from `get_house_NOMINATE(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
+
+
+

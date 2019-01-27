@@ -41,6 +41,9 @@ get_house_NOMINATE <- function(congress="ALL"){
 
   }
 
+  # filter to only House members (the president gets roped in)
+  house_data[house_data$chamber == "House",]
+
   # return object
   return(house_data)
 
