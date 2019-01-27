@@ -22,6 +22,7 @@
 #' }
 #'
 #' @importFrom utils read.csv
+#'
 #' @export
 get_house_NOMINATE <- function(congress="ALL"){
   # Input validation

@@ -15,10 +15,10 @@
 
 # Output files from R CMD check
 /*.Rcheck/
-
+  
 # RStudio files
 .Rproj.user/
-
+  
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -28,8 +28,8 @@ vignettes/*.pdf
 
 # knitr and R markdown default cache directories
 /*_cache/
-/cache/
-
+  /cache/
+  
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
@@ -37,3 +37,4 @@ vignettes/*.pdf
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
 .Rproj.user
+

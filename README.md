@@ -1,16 +1,36 @@
-# R package `politicaldata` for acquiring and analyzing political data in R
+
+# Politicaldata 
 
 [![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
 
 
+An R package for acquiring and analyzing political data in R --- including downloading polling aggregates and microdata, congressional legislator information, and election results.
+
+---
+
+Author: [G. Elliott Morris](https://www.thecrosstab.com)
+
+For more, see [the package's project file on my blog]() or view the vignettes.
+
 # Installation
 
-Install using `devtools` in R
+The politicaldata package is not yet available from CRAN.
+
+To get the current development version from GitHub:
 
 ```
-# If you don't already have devtools
-install.packages("devtools")
+## install the remotes package if it's not already
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("remotes")
+}
 
-library(devtools)
-devtools::install_github("elliottmorris/politicaldata")
+## install dev version of rtweet from github
+remotes::install_github("elliottmorris/politicaldata")
+
+## load rtweet package
+library(politicaldata)
 ```
+
+# Usage
+
+More to come...
