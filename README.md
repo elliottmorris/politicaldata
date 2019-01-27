@@ -6,7 +6,7 @@
 **Development in progress**
 
 
-An R package for acquiring and analyzing political data in R --- including downloading polling aggregates and microdata, congressional legislator information, and election results.
+An R package for acquiring and analyzing political data in R — including downloading polling aggregates and microdata, congressional legislator information, and election results.
 
 ---
 
