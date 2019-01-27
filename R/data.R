@@ -34,3 +34,22 @@
 #'
 
 "senate_116"
+
+
+
+#' Pre-loaded data for basic analysis and tests
+#'
+#' Data for:
+#'    - us_pres_poll_history: presidential election polls from 1980 through 2016
+#'
+#'
+#' @docType data
+#'
+#' @usage data(senate_116)
+#'
+#' @keywords datasets
+#'
+#'
+
+"us_pres_polls_history"
+

@@ -35,7 +35,7 @@ library(politicaldata)
 
 # Usage
 
-_Constantly updating..._
+_Constantly updating..._ 
 
 ## A list of functions:
 
@@ -46,6 +46,11 @@ _Constantly updating..._
 
 - `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 - `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.
+- `us_polls_history` a dataset of US presidential election polling from the 1980 through 2016 elections
+
+
+
+# Vignettes
 
 
 
