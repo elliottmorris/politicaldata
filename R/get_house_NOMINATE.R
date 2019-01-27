@@ -21,6 +21,7 @@
 #'
 #' }
 #'
+#' @importFrom utils read.csv
 #' @export
 get_house_NOMINATE <- function(congress="ALL"){
   # Input validation
@@ -30,12 +31,16 @@ get_house_NOMINATE <- function(congress="ALL"){
   # get the data
   if(congress=="ALL"){
     # if the user wants every congress, simply read and return
-    return(read.csv("https://voteview.com/static/data/out/members/Hall_members.csv",stringsAsFactors = F))
+    house_data <- read.csv("https://voteview.com/static/data/out/members/Hall_members.csv",stringsAsFactors = F,encoding = 'UTF-8')
   }else{
     # else, get only data from relevant congress
     link <- sprintf("https://voteview.com/static/data/out/members/H%s_members.csv",congress)
 
-    return(as.data.frame(read.csv(link,stringsAsFactors = F)))
+    house_data <- as.data.frame(read.csv(link,stringsAsFactors = F,encoding = 'UTF-8'))
 
   }
+
+  # return object
+  return(house_data)
+
 }

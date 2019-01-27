@@ -12,6 +12,8 @@ LazyData: true
 Imports: 
     dplyr,
     tidyr,
-    ggplot2
+    ggplot2,
+    utils
 Suggests: 
     testthat
+RoxygenNote: 6.1.1
