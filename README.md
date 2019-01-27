@@ -5,7 +5,7 @@
 
 **Development in progress**
 
-An R package for acquiring and analyzing political data in R — including polls, election results, legislator information, and demographic data.
+An R package for acquiring and analyzing political data — including polls, election results, legislator information, and demographic data.
 
 ---
 
