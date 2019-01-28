@@ -11,7 +11,7 @@ An R package for acquiring and analyzing political data — including polls, ele
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
-For more, see [the package's project file on my blog]() or [view the vignettes](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r). You can see how many of these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
+For more, see [the package's project fipagon my blog](https://www.thecrosstab.com) or [view the vignettes](https://www.thecrosstab.com). You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
 
 
 
@@ -23,7 +23,7 @@ To get the current development version from GitHub:
 
 ```
 ## install the remotes package if it's not already
-if (!requireNamespace("deremote, quietly = TRUE)) {
+if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
 

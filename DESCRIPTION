@@ -1,11 +1,10 @@
 Package: politicaldata
 Type: Package
-Title: Package To Acquire And Analyze Political Data
+Title: Tools for Acquiring and Analyzing Political Data
 Version: 0.1.0
 Author: G. Elliott Morris
 Maintainer: G. Elliott Morris <elliott@thecrosstab.com>
-Description: This package provides a consolidated location for useful functions and interfaces to common sources of data used in politics and political science.
-    Examples include: Polls (such as the American National Election Studies and Cooperative Congressional Election Studies), polling aggregators (like RealClearPolitics, HuffingtonPost Pollster and FiveThirtyEight), election results, congressional boundaries, legislator ideological scores.
+Description: Provides a consolidated location for useful functions and interfaces to common sources of data used in political analysis and political science.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
