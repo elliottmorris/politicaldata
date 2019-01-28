@@ -23,7 +23,7 @@ To get the current development version from GitHub:
 
 ```
 ## install the remotes package if it's not already
-if (!requireNamespace("devtools", quietly = TRUE)) {
+if (!requireNamespace("deremote, quietly = TRUE)) {
   install.packages("remotes")
 }
 
