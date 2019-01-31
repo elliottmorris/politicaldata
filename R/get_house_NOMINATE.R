@@ -1,6 +1,6 @@
 #' Get DW-nominate Scores for members of the U.S. House
 #'
-#' Returns a datset of nominate scores for House members of the the specified congress,
+#' Returns a dataset of nominate scores for House members of the the specified congress,
 #' available otherwise at VoteView.com.
 #'
 #' @param congress Number for the congress you're interested in. Defaults to "ALL" to get the most recent scores for every congress.

@@ -72,7 +72,7 @@ head(house_ideo[1:5])
 -   `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 -   `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.
 -   `us_polls_history` is a dataset of US presidential election polling from the 1980 through 2016 elections.
--   `house_results` is a datset of results for elections to the US House of Representatives that occurred from 1976 to 2018
+-   `house_results` is a dataset of results for elections to the US House of Representatives that occurred from 1976 to 2018
 -   `pres_results_by_cd` is a dataset of results for presidential elections broken down by congressional district from 1990 to 2016
 
 Vignettes

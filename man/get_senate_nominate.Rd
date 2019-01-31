@@ -13,7 +13,7 @@ get_senate_nominate(congress = "ALL")
 a data frame containing the relevant legislator names and DW-nominate scores, as well as otherinformation made available by VoteView
 }
 \description{
-Returns a datset of nominate scores for Senate members of the the specified congress,
+Returns a dataset of nominate scores for Senate members of the the specified congress,
 available otherwise at VoteView.com.
 }
 \examples{
