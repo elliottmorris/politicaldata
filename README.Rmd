@@ -67,8 +67,9 @@ house_ideo <- get_house_nominate(congress = 116)
 senate_ideo <- get_senate_nominate(congress = 116)
 
 # take a look with dplyr::head()
-library(dplyr)
-head(house_ideo)
+suppressMessages(library(dplyr))
+
+head(house_ideo[1:5])
 ```
 
 
@@ -79,7 +80,7 @@ head(house_ideo)
 - `trump_approval_polls_538()` returns a dataset of approval polls [aggregated by](https://projects.fivethirtyeight.com/trump-approval-ratings/) the folks over at FiveThirtyEight.
 
 
-**A list of data:**
+**A list of datasets:**
 
 - `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 - `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.

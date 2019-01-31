@@ -49,58 +49,16 @@ house_ideo <- get_house_nominate(congress = 116)
 senate_ideo <- get_senate_nominate(congress = 116)
 
 # take a look with dplyr::head()
-library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-head(house_ideo)
-#>   congress chamber icpsr state_icpsr district_code state_abbrev party_code
-#> 1      116   House 20301          41             3           AL        200
-#> 2      116   House 21102          41             7           AL        100
-#> 3      116   House 21192          41             2           AL        200
-#> 4      116   House 21193          41             5           AL        200
-#> 5      116   House 21376          41             1           AL        200
-#> 6      116   House 21500          41             6           AL        200
-#>   occupancy last_means             bioname bioguide_id born died
-#> 1        NA         NA ROGERS, Mike Dennis     R000575 1958   NA
-#> 2        NA         NA       SEWELL, Terri     S001185 1965   NA
-#> 3        NA         NA        ROBY, Martha     R000591 1976   NA
-#> 4        NA         NA          BROOKS, Mo     B001274 1954   NA
-#> 5        NA         NA      BYRNE, Bradley     B001289 1955   NA
-#> 6        NA         NA  PALMER, Gary James     P000609 1954   NA
-#>   nominate_dim1 nominate_dim2 nominate_log_likelihood
-#> 1         0.339         0.448                -3.20589
-#> 2        -0.390         0.403                -0.34164
-#> 3         0.367         0.661                -2.31340
-#> 4         0.607        -0.439                -4.34851
-#> 5         0.544         0.316                -1.79148
-#> 6         0.771        -0.075                -3.21280
-#>   nominate_geo_mean_probability nominate_number_of_votes
-#> 1                       0.92109                       39
-#> 2                       0.99150                       40
-#> 3                       0.94514                       41
-#> 4                       0.89699                       40
-#> 5                       0.95725                       41
-#> 6                       0.92463                       41
-#>   nominate_number_of_errors conditional nokken_poole_dim1
-#> 1                         1          NA             0.561
-#> 2                         0          NA            -0.599
-#> 3                         1          NA             0.455
-#> 4                         3          NA             0.717
-#> 5                         1          NA             0.561
-#> 6                         2          NA             0.422
-#>   nokken_poole_dim2
-#> 1            -0.068
-#> 2            -0.242
-#> 3             0.065
-#> 4            -0.377
-#> 5            -0.068
-#> 6             0.907
+suppressMessages(library(dplyr))
+
+head(house_ideo[1:5])
+#>   congress chamber icpsr state_icpsr district_code
+#> 1      116   House 20301          41             3
+#> 2      116   House 21102          41             7
+#> 3      116   House 21192          41             2
+#> 4      116   House 21193          41             5
+#> 5      116   House 21376          41             1
+#> 6      116   House 21500          41             6
 ```
 
 **A list of functions:**
@@ -109,7 +67,7 @@ head(house_ideo)
 -   `get_senate_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. Senate for a specified congress, else every Senator ever.
 -   `trump_approval_polls_538()` returns a dataset of approval polls [aggregated by](https://projects.fivethirtyeight.com/trump-approval-ratings/) the folks over at FiveThirtyEight.
 
-\*\*A list of <data:**>
+**A list of datasets:**
 
 -   `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 -   `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.
