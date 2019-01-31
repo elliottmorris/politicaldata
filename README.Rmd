@@ -69,19 +69,17 @@ senate_ideo <- get_senate_nominate(congress = 116)
 # take a look with dplyr::head()
 library(dplyr)
 head(house_ideo)
-
-head(senate_ideo)
 ```
 
 
-**A list of functions: **
+**A list of functions:**
 
 - `get_house_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. House of Representatives for a specified congress, else every Representative ever.
 - `get_senate_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. Senate for a specified congress, else every Senator ever.
 - `trump_approval_polls_538()` returns a dataset of approval polls [aggregated by](https://projects.fivethirtyeight.com/trump-approval-ratings/) the folks over at FiveThirtyEight.
 
 
-**A list of data: **
+**A list of data:**
 
 - `house_116` is a saved copy of the output from `get_house_nominate(congress=116)` run on the last day the package was updated (and thus should only be used for demos, unless you want outdated data).
 - `senate_116` is the same as the above, bur for the Senate. Downloaded via `get_senate_nominate(congress=116)`.
