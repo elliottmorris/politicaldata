@@ -2,4 +2,5 @@
 
 export(get_house_nominate)
 export(get_senate_nominate)
+export(trump_approval_polls_538)
 importFrom(utils,read.csv)

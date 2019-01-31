@@ -31,9 +31,9 @@ For more, see [the package's project description my blog](https://www.thecrossta
 
 # Installation
 
-The `politicaldata` package is not yet available from CRAN.
+The `politicaldata` package is not yet available from CRAN. However, as the landscape of online data and API calls is constantly changing, the development version is likely more useful anyways.
 
- However, as the landscape of online data and API calls is constantly changing, the development version is likely more useful anyways.
+
 To get the current development version from GitHub:
 
 ```r 
@@ -66,6 +66,11 @@ house_ideo <- get_house_nominate(congress = 116)
 # download the NOMINATE scores for the Senate in the 116th Congress
 senate_ideo <- get_senate_nominate(congress = 116)
 
+# take a look with dplyr::head()
+library(dplyr)
+head(house_ideo)
+
+head(senate_ideo)
 ```
 
 
@@ -73,6 +78,7 @@ senate_ideo <- get_senate_nominate(congress = 116)
 
 - `get_house_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. House of Representatives for a specified congress, else every Representative ever.
 - `get_senate_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. Senate for a specified congress, else every Senator ever.
+- `trump_approval_polls_538()` returns a dataset of approval polls [aggregated by](https://projects.fivethirtyeight.com/trump-approval-ratings/) the folks over at FiveThirtyEight.
 
 
 **A list of data: **
@@ -92,7 +98,7 @@ _Come back later_
 
 - `Rvoteview` provides functions for obtaining roll call voting data, which can thus be analyzed using algorithms from the `pscl` package.
 - `ropercenter` allows you import data from the Roper Center's iPoll directly in R, given that you know the slug of the interested poll.
-- `fivethirtyeight` was developed to distribute the data behind the popular "data journalism" website, and thus will have some overlap. FiveThirtyEight also releases most of their data [on GitHub](https://github.com/fivethirtyeight/data).
+- `fivethirtyeight` was developed to distribute the data behind the popular data journalism website, and thus will have some overlap. FiveThirtyEight also releases most of their data [on GitHub](https://github.com/fivethirtyeight/data).
 - `pollstR` provides a way to access the aggregate toplines from Huffington Post Pollster, which is sadly no longer being updated.
 
 
