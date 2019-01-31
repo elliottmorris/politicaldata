@@ -2,8 +2,11 @@ Package: politicaldata
 Type: Package
 Title: Tools for Acquiring and Analyzing Political Data
 Version: 0.1.0
-Author: G. Elliott Morris
-Maintainer: G. Elliott Morris <elliott@thecrosstab.com>
+Authors@R: 
+    person(given = "G. Elliott",
+           family = "Morris",
+           role = c("aut","cre"),
+           email = "elliott@thecrosstab.com")
 Description: Provides a consolidated location for useful functions and interfaces to common sources of data used in political analysis and political science.
 License: MIT + file LICENSE
 Encoding: UTF-8
