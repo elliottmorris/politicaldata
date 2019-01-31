@@ -3,7 +3,7 @@
 \docType{data}
 \name{house_116}
 \alias{house_116}
-\title{Pre-loaded data for basic analysis and tests}
+\title{DW-NOMINATE scores for the 116th House}
 \format{An object of class \code{data.frame} with 434 rows and 22 columns.}
 \usage{
 data(house_116)
@@ -11,9 +11,5 @@ data(house_116)
 \description{
 Data for:
    - house_116: the result of calling \code{`get_house_nominate(congress=116)`}
-}
-\details{
-Commands to create:
-     - house_116 <- politicaldata::get_house_nominate(congress = 116); save(house_116,file='data/house_116.RData')
 }
 \keyword{datasets}

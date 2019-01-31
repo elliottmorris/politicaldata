@@ -1,10 +1,8 @@
-#' Pre-loaded data for basic analysis and tests
+#' DW-NOMINATE scores for the 116th House
 #'
 #' Data for:
 #'    - house_116: the result of calling \code{`get_house_nominate(congress=116)`}
 #'
-#' Commands to create:
-#'      - house_116 <- politicaldata::get_house_nominate(congress = 116); save(house_116,file='data/house_116.RData')
 #'
 #' @docType data
 #'
@@ -13,17 +11,14 @@
 #' @keywords datasets
 #'
 #'
-
 "house_116"
 
 
-#' Pre-loaded data for basic analysis and tests
+#' DW-NOMINATE scores for the Senators of the 116th Congress
 #'
 #' Data for:
 #'    - senate_116: the result of calling \code{`get_senate_nominate(congress=116)`}
 #'
-#' Commands to create:
-#'      - senate_116 <- politicaldata::get_senate_nominate(congress = 116); save(senate_116,file='data/senate_116.RData')
 #'
 #' @docType data
 #'
@@ -32,24 +27,48 @@
 #' @keywords datasets
 #'
 #'
-
 "senate_116"
 
 
 
-#' Pre-loaded data for basic analysis and tests
-#'
-#' Data for:
-#'    - us_pres_poll_history: presidential election polls from 1980 through 2016
+#' Every presidential general election poll from 1980 through 2016
 #'
 #'
 #' @docType data
 #'
-#' @usage data(senate_116)
+#' @usage data(us_pres_polls_history)
 #'
 #' @keywords datasets
 #'
 #'
-
 "us_pres_polls_history"
 
+
+#' Presidential election by congressional district
+#'
+#'
+#' @docType data
+#'
+#' @usage data(pres_results_by_cd)
+#'
+#' @keywords datasets
+#'
+#' @source See for more: https://www.thealmanacofamericanpolitics.com
+#'
+#'
+"pres_results_by_cd"
+
+
+#' US House election results from 1976 to 2018
+#'
+#'
+#' @docType data
+#'
+#' @usage data(house_results)
+#'
+#' @keywords datasets
+#'
+#' @source See for more: https://electionlab.mit.edu and official sites
+#'
+#'
+"house_results"

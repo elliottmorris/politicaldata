@@ -3,7 +3,7 @@
 \docType{data}
 \name{senate_116}
 \alias{senate_116}
-\title{Pre-loaded data for basic analysis and tests}
+\title{DW-NOMINATE scores for the Senators of the 116th Congress}
 \format{An object of class \code{data.frame} with 100 rows and 22 columns.}
 \usage{
 data(senate_116)
@@ -11,9 +11,5 @@ data(senate_116)
 \description{
 Data for:
    - senate_116: the result of calling \code{`get_senate_nominate(congress=116)`}
-}
-\details{
-Commands to create:
-     - senate_116 <- politicaldata::get_senate_nominate(congress = 116); save(senate_116,file='data/senate_116.RData')
 }
 \keyword{datasets}

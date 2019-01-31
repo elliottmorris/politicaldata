@@ -1,5 +1,9 @@
+^ext/scripts$
+^ext/data$
+^ext$
 ^README\.Rmd$
 ^LICENSE\.md$
 ^\.travis\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^cran-comments.md$

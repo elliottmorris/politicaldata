@@ -3,13 +3,12 @@
 \docType{data}
 \name{us_pres_polls_history}
 \alias{us_pres_polls_history}
-\title{Pre-loaded data for basic analysis and tests}
+\title{Every presidential general election poll from 1980 through 2016}
 \format{An object of class \code{data.frame} with 3586 rows and 10 columns.}
 \usage{
-data(senate_116)
+data(us_pres_polls_history)
 }
 \description{
-Data for:
-   - us_pres_poll_history: presidential election polls from 1980 through 2016
+Every presidential general election poll from 1980 through 2016
 }
 \keyword{datasets}
