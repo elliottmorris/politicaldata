@@ -32,12 +32,12 @@ get_senate_nominate <- function(congress="ALL"){
   # get the data
   if(congress=="ALL"){
     # if the user wants every congress, simply read and return
-    senate_data <- read.csv("https://voteview.com/static/data/out/members/Sall_members.csv",stringsAsFactors = F,encoding = 'UTF-8')
+    senate_data <- read.csv(url("https://voteview.com/static/data/out/members/Sall_members.csv"),stringsAsFactors = F,encoding = 'UTF-8')
   }else{
     # else, get only data from relevant congress
     link <- sprintf("https://voteview.com/static/data/out/members/S%s_members.csv",congress)
 
-    senate_data <- as.data.frame(read.csv(link,stringsAsFactors = F,encoding = 'UTF-8'))
+    senate_data <- as.data.frame(read.csv(url(link), stringsAsFactors = F,encoding = 'UTF-8'))
 
   }
 

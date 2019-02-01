@@ -78,6 +78,7 @@ head(house_ideo[1:5])
 - `get_house_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. House of Representatives for a specified congress, else every Representative ever.
 - `get_senate_nominate()` returns [DW-NOMINATE](https://www.voteview.com/about) ideology scores for each member of the U.S. Senate for a specified congress, else every Senator ever.
 - `trump_approval_polls_538()` returns a dataset of approval polls [aggregated by](https://projects.fivethirtyeight.com/trump-approval-ratings/) the folks over at FiveThirtyEight.
+- `get_cap_mip()` returns a historical dataset of the aggregated responses to Gallup's Most Important Problem questions, coded by major topic. Part of a suite of functions for obtaining data from the [Comparative Agendas Project](https://www.comparativeagendas.net).
 
 
 **A list of datasets:**

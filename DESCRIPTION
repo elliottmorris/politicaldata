@@ -13,9 +13,12 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr,
+    magrittr, 
     tidyr,
     ggplot2,
     utils
 Suggests: 
     testthat
+Depends:
+    R (>= 2.10)
 RoxygenNote: 6.1.1

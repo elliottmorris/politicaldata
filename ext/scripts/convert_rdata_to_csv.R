@@ -22,7 +22,3 @@ invisible(
            }
          )
 )
-
-
-backup_house <- house_results_1976_2018
-backup_pres <- pres_by_cd_1990_2016

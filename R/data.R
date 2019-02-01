@@ -72,3 +72,33 @@
 #'
 #'
 "house_results"
+
+
+#' Major topic codes from the Comparative Agendas Project
+#'
+#'
+#' @docType data
+#'
+#' @usage data(cap_major_topics)
+#'
+#' @keywords datasets
+#'
+#' @source See for more: https://www.comparativeagendas.net/datasets_codebooks
+#'
+#'
+"cap_major_topics"
+
+
+#' Subtopic codes from the Comparative Agendas Project
+#'
+#'
+#' @docType data
+#'
+#' @usage data(cap_subtopics)
+#'
+#' @keywords datasets
+#'
+#' @source See for more: https://www.comparativeagendas.net/datasets_codebooks
+#'
+#'
+"cap_subtopics"

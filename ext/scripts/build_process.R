@@ -1,5 +1,9 @@
 ## commands used to check the build before pushing to cran
 
+# make sure we save the right internally-necessary data to sysdata.rda
+library(politicaldata)
+devtools::use_data(cap_major_topics, internal = T)
+
 # clear and restart the R session
 rm(list=ls())
 .rs.restartR()

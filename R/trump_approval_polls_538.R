@@ -29,7 +29,7 @@ trump_approval_polls_538 <- function(subgroup='All polls'){
     stop("Subgroup must be one of 'Adults', 'All polls', 'Voters'")
 
   # get the data
-  polls <- read.csv("https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv",stringsAsFactors = F)
+  polls <- read.csv(url("https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv"),stringsAsFactors = F)
 
   # filter to only House members (the president gets roped in)
   polls <- polls[polls$subgroup == subgroup,]

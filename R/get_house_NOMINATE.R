@@ -32,12 +32,12 @@ get_house_nominate <- function(congress="ALL"){
   # get the data
   if(congress=="ALL"){
     # if the user wants every congress, simply read and return
-    house_data <- read.csv("https://voteview.com/static/data/out/members/Hall_members.csv",stringsAsFactors = F,encoding = 'UTF-8')
+    house_data <- read.csv(url("https://voteview.com/static/data/out/members/Hall_members.csv"),stringsAsFactors = F,encoding = 'UTF-8')
   }else{
     # else, get only data from relevant congress
     link <- sprintf("https://voteview.com/static/data/out/members/H%s_members.csv",congress)
 
-    house_data <- as.data.frame(read.csv(link,stringsAsFactors = F,encoding = 'UTF-8'))
+    house_data <- as.data.frame(read.csv(url(link),stringsAsFactors = F,encoding = 'UTF-8'))
 
   }
 
