@@ -74,6 +74,21 @@
 "house_results"
 
 
+#' State-by-state US presidential election results from 1976 to 2016
+#'
+#'
+#' @docType data
+#'
+#' @usage data(pres_results)
+#'
+#' @keywords datasets
+#'
+#' @source See for more: https://electionlab.mit.edu and official sites
+#'
+#'
+"pres_results"
+
+
 #' Major topic codes from the Comparative Agendas Project
 #'
 #'
@@ -102,3 +117,6 @@
 #'
 #'
 "cap_subtopics"
+
+
+

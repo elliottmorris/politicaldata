@@ -9,6 +9,7 @@ Authors@R:
            email = "elliott@thecrosstab.com")
 Description: Provides a consolidated location for useful functions and interfaces to common sources of data used in political analysis and political science.
 License: MIT + file LICENSE
+BugReports: https://github.com/elliottmorris/politicaldata/issues
 Encoding: UTF-8
 LazyData: true
 Imports: 
