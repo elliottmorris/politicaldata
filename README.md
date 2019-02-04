@@ -16,7 +16,9 @@ For more, see [the package's project description my blog](https://www.thecrossta
 Installation
 ============
 
-The `politicaldata` package is not yet available from CRAN. However, as the landscape of online data and API calls is constantly changing, the development version is likely more useful anyways.
+The `politicaldata` package is pending approval on CRAN.
+
+As the landscape of online data and API calls is constantly changing, the development version is likely more useful. You should familiarize yourself with the `remotes::install_github()` workflow below:
 
 To get the current development version from GitHub:
 
