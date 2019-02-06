@@ -11,7 +11,7 @@ An R package for acquiring and analyzing political data — including polls, ele
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
-For more, see [the package's project description my blog](https://www.thecrosstab.com) or [view the vignettes](https://www.thecrosstab.com) *(both are a work in progress)*. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
+For more, see [the package's project description my blog](https://www.thecrosstab.com/project/politicaldata-package/) or [view the vignettes](https://www.thecrosstab.com) *(both are a work in progress)*. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
 
 Installation
 ============
