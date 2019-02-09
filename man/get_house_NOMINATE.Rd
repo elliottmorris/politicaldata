@@ -18,15 +18,13 @@ available otherwise at VoteView.com.
 }
 \examples{
 
-\dontrun{
 
- ## get the scores for the 116th (2019-2021) congress
+ # get the scores for the 116th (2019-2021) congress
  house <- get_house_nominate(congress=116)
 
- ## returned as a data frame
+ # returned as a data frame
  house
 
-}
 
 }
 \seealso{

@@ -10,7 +10,7 @@
 #'
 #' @examples
 #'
-#' \dontrun{
+#' \donttest{
 #'
 #'  # get all polls
 #'  polls <- trump_approval_polls_538(subgroup='Adults')

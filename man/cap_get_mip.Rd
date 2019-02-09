@@ -18,6 +18,20 @@ a data.frame of CAP's most important problem data
 From CAP:
 > This dataset contains responses to Gallup's Most Important Problem question aggregated at the annual level and coded by major topic. Years with missing observations (1953/1955) are those in which there were no corresponding MIP data available. Contact us for quarterly MIP data if needed.
 }
+\examples{
+
+
+# pull the Most Important Problem data for every year since 1980
+mip <- cap_get_mip(min_year = 1980)
+
+# pull the MIP data for every year between 1950 and 1970
+mip <- cap_get_mip(min_year = 1950, max_year = 1970)
+
+# pull the MIP Data for every year until 2010
+mip <- cap_get_mip(max_year = 2010)
+
+
+}
 \seealso{
 The master codebook and datasets at https://www.comparativeagendas.net/datasets_codebooks
 }

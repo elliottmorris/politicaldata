@@ -11,15 +11,13 @@
 #'
 #' @examples
 #'
-#' \dontrun{
 #'
-#'  ## get the scores for the 116th (2019-2021) congress
+#'  # get the scores for the 116th (2019-2021) congress
 #'  senate <- get_senate_nominate(congress=116)
 #'
-#'  ## returned as a data frame
+#'  # returned as a data frame
 #'  senate
 #'
-#' }
 #'
 #' @importFrom utils read.csv
 #'

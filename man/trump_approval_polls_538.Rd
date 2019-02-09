@@ -17,7 +17,7 @@ Returns a data.frame of individual polls aggregated by FiveThirtyEight
 }
 \examples{
 
-\dontrun{
+\donttest{
 
  # get all polls
  polls <- trump_approval_polls_538(subgroup='Adults')
