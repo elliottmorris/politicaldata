@@ -13,14 +13,14 @@ Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
 For more, see [the package's project description my blog](https://www.thecrosstab.com/project/politicaldata-package/) or [view the vignettes](https://github.com/elliottmorris/politicaldata) *(vignettes area work in progress)*. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r).
 
-I've written a detatiled guide on using R for analyzing political data, called "A Guide to Analyzing (American) Political Data in R," that uses many of the functions found in this package. [You can read it here](https://www.thecrosstab.com/project/guide).
+I've written a detailed guide on using R for analyzing political data, [*A Guide to Analyzing (American) Political Data in R*](https://www.thecrosstab.com/project/guide), that uses many of the functions and datasets from this package. If you want use cases that extend beyond the examples in the function documentation, this is a good place to start.
 
 Installation
 ============
 
 The `politicaldata` package is pending approval on CRAN.
 
-As the landscape of online data and API calls is constantly changing, the development version is likely more useful. anywaysYou should familiarize yourself with the `remotes::install_github()` workflow below:
+As the landscape of online data and API calls is constantly changing, the development version is likely more useful. anyways You should familiarize yourself with the `remotes::install_github()` workflow below:
 
 To get the current development version from GitHub:
 
