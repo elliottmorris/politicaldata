@@ -13,7 +13,7 @@ Description: Provides for useful functions and interfaces to common sources
     sources such as the Comparative Agendas Project (comparativeagendas.net), 
     which provides data on politics and policy from 20+ countries, 
     FiveThirtyEight.com, and the MIT Election and Data Science Lab 
-    (mit election daya ascience lab).
+    (https://electionlab.mit.edu).
 License: MIT + file LICENSE
 BugReports: https://github.com/elliottmorris/politicaldata/issues
 Encoding: UTF-8
