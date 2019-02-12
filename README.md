@@ -3,7 +3,9 @@
 politicaldata 🗳📊
 ================
 
-[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata) 0.1.1
+[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
+
+1.1
 
 An R package for acquiring and analyzing political data — including polls, election results, legislator information, and demographic data.
 
@@ -16,22 +18,30 @@ I've written a detailed guide on using R for analyzing political data, [*A Guide
 Installation
 ============
 
-The `politicaldata` package is pending approval on CRAN.
+ThInstall t `politicaldata` package isfrom CRAN:
+
+``` r
+# install politicaldata from CRAN
+install.packages('politicaldata')
+
+# load the politicaldata package
+library(politicaldata)
+```
 
 As the landscape of online data and API calls is constantly changing, the development version is likely more useful. anyways You should familiarize yourself with the `remotes::install_github()` workflow below:
 
 To get the current development version from GitHub:
 
 ``` r
-## install the remotes package if it's not already
+# install the remotes package if it's not already
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
 
-## install dev version of rtweet from github
+# install dev version of politicaldata from github
 remotes::install_github("elliottmorris/politicaldata")
 
-## load rtweet package
+# load the politicaldataackage
 library(politicaldata)
 ```
 
