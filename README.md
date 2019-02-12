@@ -22,10 +22,10 @@ R”](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
 
 I’ve written a detailed guide on using R for analyzing political data,
 [*A Guide to Analyzing (American) Political Data in
-R*](https://www.thecrosstab.com/project/guide), that uses many of the
-functions and datasets from this package. If you want use cases that
-extend beyond the examples in the function documentation, this is a good
-place to start.
+R*](https://www.thecrosstab.com/project/r-politics-guide/), that uses
+many of the functions and datasets from this package. IfThe included use
+casesxtend beyond the examples in the function documentation, and thid
+readme
 
 # Installation
 

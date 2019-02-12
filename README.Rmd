@@ -27,8 +27,7 @@ Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
 For more, see [the package's project description my blog](https://www.thecrosstab.com/project/politicaldata-package/) or [view the vignettes](https://github.com/elliottmorris/politicaldata) _(vignettes area work in progress)_. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r). 
 
-I've written a detailed guide on using R for analyzing political data, [_A Guide to Analyzing (American) Political Data in R_](https://www.thecrosstab.com/project/guide), that uses many of the functions and datasets from this package. If you want use cases that extend beyond the examples in the function documentation, this is a good place to start.
-
+I've written a detailed guide on using R for analyzing political data, [_A Guide to Analyzing (American) Political Data in R_](https://www.thecrosstab.com/project/r-politics-guide/), that uses many of the functions and datasets from this package. IfThe included use casesxtend beyond the examples in the function documentation,  and thid readme
 
 
 # Installation
