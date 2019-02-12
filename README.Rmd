@@ -16,9 +16,8 @@ knitr::opts_chunk$set(
 
 # politicaldata 🗳📊 
 
-[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata) 
-
-1.1  
+[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
+0.1.1
 
 
 An R package for acquiring and analyzing political data — including polls, election results, legislator information, and demographic data.
@@ -34,7 +33,7 @@ I've written a detailed guide on using R for analyzing political data, [_A Guide
 
 # Installation
 
-ThInstall t `politicaldata` package isfrom CRAN:
+Install the `politicaldata` package from CRAN:
 
 ```r
 # install politicaldata from CRAN
@@ -57,7 +56,7 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 # install dev version of politicaldata from github
 remotes::install_github("elliottmorris/politicaldata")
 
-# load the politicaldataackage
+# load the politicaldata package
 library(politicaldata)
 ```
 
