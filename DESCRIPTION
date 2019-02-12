@@ -4,16 +4,16 @@ Title: Tools for Acquiring and Analyzing Political Data
 Version: 0.1.1
 Authors@R: 
     c(person(given = "G. Elliott", family = "Morris", role = c("aut","cre"), email = "elliott@thecrosstab.com"),
-      person(given="FiveThirtyEight.com", role=c("cph")),
       person(given="Comparative Agendas Project", role=c("cph")),
-      person(given="MIT Election and Data Science Lab", role=c("cph"))
+      person(given="MIT Election and Data Science Lab", role=c("cph")),
+      person(given="FiveThirtyEight.com", role=c("cph"))
       )
 Description: Provides for useful functions to obtain commonly-used data 
     in political analysis and political science, including from sources 
-    such as the Comparative Agendas Project <comparativeagendas.net>, 
-    which provides data on politics and policy from 20+ countries, 
-    FiveThirtyEight <FiveThirtyEight.com>, and the MIT Election and Data 
-    Science Lab <electionlab.mit.edu>.
+    such as the Comparative Agendas Project <https://www.comparativeagendas.net>, 
+    which provides data on politics and policy from 20+ countries, the 
+    MIT Election and Data Science Lab <https://www.electionlab.mit.edu>,
+    and FiveThirtyEight <https://www.FiveThirtyEight.com>.
 License: MIT + file LICENSE
 BugReports: https://github.com/elliottmorris/politicaldata/issues
 Encoding: UTF-8

@@ -55,7 +55,7 @@ and redundant, as we believe you have "useful functions".
 > Please enclose the URL in angle brackets, not poarentheses (for auto 
 linking) as in:  .... Lab  <https://electionlab.mit.edu>.
 
-- Done 
+- Done (x2 -- 2019-09-11 8:08 PM)
 
 
 
