@@ -3,9 +3,7 @@
 politicaldata 🗳📊
 ================
 
-[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata) v0.1.0
-
-*Development in progress*
+[![Build Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata) 0.1.1
 
 An R package for acquiring and analyzing political data — including polls, election results, legislator information, and demographic data.
 

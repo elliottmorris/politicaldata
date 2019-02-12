@@ -12,7 +12,7 @@ There was 1 NOTE:
   
   New submission
   
-## 2019-09-10:  Responses to requests:
+## 2019-09-10: v 0.1.1 Responses to requests:
 
 I've made the following changes to the package in response to feedback and rejection from Uwe Ligges on 2019-02-08:
 
@@ -39,7 +39,25 @@ I've made the following changes to the package in response to feedback and rejec
 - I've added examples to all .Rd files and wrapped with \donttest{}. To be sure, I've also written separate custom tests with `testthat`.
 
 
-...
+
+## 2019-09-11: v 0.1.1 Updated responses to requests:
 
 
-I have made other corresponding checks and believe the package is now ready to be reevaluated. Thanks, CRAN!
+> Pls omit trailing zeros. Rather write 0.1.1
+
+- Done, v 0.1.1
+
+> "Provides for useful functions and interfaces" is both not grammatical 
+and redundant, as we believe you have "useful functions".
+
+- Of course, that's bad grammar. Fixed and respecified
+
+> Please enclose the URL in angle brackets, not poarentheses (for auto 
+linking) as in:  .... Lab  <https://electionlab.mit.edu>.
+
+- Done 
+
+
+
+
+
