@@ -8,7 +8,7 @@ Authors@R:
       person(given="MIT Election and Data Science Lab", role=c("cph")),
       person(given="FiveThirtyEight.com", role=c("cph"))
       )
-Description: Provides for useful functions to obtain commonly-used data
+Description: Provides useful functions for obtaining commonly-used data
     in political analysis and political science, including from sources
     such as the Comparative Agendas Project <https://www.comparativeagendas.net>,
     which provides data on politics and policy from 20+ countries, the

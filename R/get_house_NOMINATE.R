@@ -31,6 +31,7 @@ get_house_nominate <- function(congress="ALL"){
   if(congress=="ALL"){
     # if the user wants every congress, simply read and return
     house_data <- read.csv(url("https://voteview.com/static/data/out/members/Hall_members.csv"),stringsAsFactors = F,encoding = 'UTF-8')
+
   }else{
     # else, get only data from relevant congress
     link <- sprintf("https://voteview.com/static/data/out/members/H%s_members.csv",congress)
@@ -40,7 +41,7 @@ get_house_nominate <- function(congress="ALL"){
   }
 
   # filter to only House members (the president gets roped in)
-  house_data[house_data$chamber == "House",]
+  house_data <- house_data[house_data$chamber == "House",]
 
   # return object
   return(house_data)
