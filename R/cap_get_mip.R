@@ -13,8 +13,6 @@
 #'
 #'
 #' @importFrom utils read.csv data
-#' @importFrom dplyr group_by mutate
-#' @importFrom magrittr %>%
 #'
 #' @examples
 #'

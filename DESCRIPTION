@@ -1,7 +1,7 @@
 Package: politicaldata
 Type: Package
 Title: Tools for Acquiring and Analyzing Political Data
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     c(person(given = "G. Elliott", family = "Morris", role = c("aut","cre"), email = "elliott@thecrosstab.com"),
       person(given="Comparative Agendas Project", role=c("cph")),
@@ -19,13 +19,13 @@ BugReports: https://github.com/elliottmorris/politicaldata/issues
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    utils
+Suggests: 
+    testthat,
     dplyr,
     magrittr, 
     tidyr,
-    ggplot2,
-    utils
-Suggests: 
-    testthat
+    ggplot2
 Depends:
     R (>= 2.10)
 RoxygenNote: 6.1.1
