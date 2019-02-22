@@ -11,7 +11,7 @@ rm(list=ls())
 # build the new documentation
 devtools::document()
 
-# build the pacage
+# build the package
 devtools::build()
 
 # check the package
