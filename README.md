@@ -1,14 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# politicaldata 🗳📊
+# politicaldata🗳📊
 
 [![Build
 Status](https://travis-ci.com/elliottmorris/politicaldata.svg?branch=master)](https://travis-ci.com/elliottmorris/politicaldata)
-0.1.1
+[![Monthly
+Downloads](https://cranlogs.r-pkg.org/badges/politicaldata)](https://cran.r-project.org/package=politicaldata)
+[![Weekly
+Downloads](https://cranlogs.r-pkg.org/badges/last-week/politicaldata)](https://cran.r-project.org/package=politicaldata)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/politicaldata)](https://cran.r-project.org/package=politicaldata)
+v0.1.1
 
-An R package for acquiring and analyzing political data — including
-polls, election results, legislator information, and demographic data.
+A Rackage for acquiring and analyzing political data — including polls,
+election results, legislator information, and demographic data.
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
@@ -153,7 +159,7 @@ You can reach me by opening an issue, on
 [Twitter](https://www.twitter.com/gelliottmorris), or via email (but I’d
 prefer you to communicate primarily via GitHub).
 
-\#License
+# License
 
 This package is open source and released under the MIT License, which
 only stipulates that you must distribute the License alongside the
