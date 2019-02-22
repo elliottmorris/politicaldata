@@ -153,7 +153,7 @@ You can reach me by opening an issue, on
 [Twitter](https://www.twitter.com/gelliottmorris), or via email (but I’d
 prefer you to communicate primarily via GitHub).
 
-# License
+\#License
 
 This package is open source and released under the MIT License, which
 only stipulates that you must distribute the License alongside the

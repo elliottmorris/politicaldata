@@ -126,10 +126,6 @@ You can reach me by opening an issue, on [Twitter](https://www.twitter.com/gelli
 
 
 
-# License
+#License
 
 This package is open source and released under the MIT License, which only stipulates that you must distribute the License alongside the package. For more details, click on "See License" at the top right of the repository.
-
-
-
-

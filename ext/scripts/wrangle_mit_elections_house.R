@@ -65,7 +65,7 @@ house_results <- house_results %>%
 
 
 # export for R ------------------------------------------------------------
-save(house_results,file='data/house_results.Rdata')
+save(house_results,file='data/house_results.RData')
 
 
 
