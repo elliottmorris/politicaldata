@@ -29,9 +29,8 @@ R”](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
 I’ve written a detailed guide on using R for analyzing political data,
 [*A Guide to Analyzing (American) Political Data in
 R*](https://www.thecrosstab.com/project/r-politics-guide/), that uses
-many of the functions and datasets from this package. IfThe included use
-casesxtend beyond the examples in the function documentation, and thid
-readme
+many of the functions and datasets from this package. The example use
+cases extend beyond those in the function documentation and this readme.
 
 # Installation
 
