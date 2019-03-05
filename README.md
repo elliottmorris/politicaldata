@@ -45,9 +45,9 @@ library(politicaldata)
 ```
 
 As the landscape of online data and API calls is constantly changing,
-the development version is likely more useful. anyways You should
-familiarize yourself with the `remotes::install_github()` workflow
-below:
+the development version is likely to contain quicker bug fixes and
+integration of new data. You can instill the dev version using the
+`remotes::install_github()` workflow outlined here:
 
 To get the current development version from GitHub:
 
@@ -132,7 +132,8 @@ head(house_ideo[1:5])
 
 # Vignettes
 
-*Come back later*
+*Come back later.* For now, [some examples can be found
+here](https://www.thecrosstab.com/project/r-politics-guide/).
 
 # Suggested related packages:
 
