@@ -4,4 +4,8 @@ The initial version of `politicaldata` has been submitted to CRAN with functions
 
 # 0.1.1
 
-I made changes for resubmission to CRAN.
+`politicaldata` underwent changes for resubmission to CRAN.
+
+# 0.2.1
+
+The dependency structure of `politicaldata` has been substantially reduced and bug fixes were made to the data generating scripts for the `pres_results` data frame that were causing vote shares to be divided by about 1e06.
