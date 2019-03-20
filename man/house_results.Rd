@@ -4,7 +4,7 @@
 \name{house_results}
 \alias{house_results}
 \title{US House election results from 1976 to 2018}
-\format{An object of class \code{data.frame} with 13037 rows and 7 columns.}
+\format{An object of class \code{data.frame} with 9557 rows and 7 columns.}
 \source{
 See for more: https://electionlab.mit.edu and official sites
 }

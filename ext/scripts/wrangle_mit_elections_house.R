@@ -1,6 +1,7 @@
+rm(list=ls())
 library(tidyverse)
 
-house_results <- read_csv("~/Downloads/1976-2016-house.csv")
+house_results <- read_csv("ext/raw_data/1976-2016-house.csv")
 
 # create "seat" variable "[state]-[seat no.]"
 house_results <- house_results %>%
@@ -21,7 +22,7 @@ house_results <- house_results %>%
 
 # select only the stuff we want
 house_results <- house_results %>%
-  dplyr::select(year,seat,state_poparty,candidatevotes,totalvotes)
+  dplyr::select(year,seat,state_po, party,candidatevotes,totalvotes)
 
 
 # combine D/R
