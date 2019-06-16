@@ -11,7 +11,7 @@ Downloads](https://cranlogs.r-pkg.org/badges/politicaldata)](https://cran.r-proj
 Downloads](https://cranlogs.r-pkg.org/badges/last-week/politicaldata)](https://cran.r-project.org/package=politicaldata)
 [![Total
 Downloads](https://cranlogs.r-pkg.org/badges/grand-total/politicaldata)](https://cran.r-project.org/package=politicaldata)
-v0.1.2
+v0.1.3
 
 A R package for acquiring and analyzing political data — including
 polls, election results, legislator information, and demographic data.
