@@ -6,6 +6,10 @@ The initial version of `politicaldata` has been submitted to CRAN with functions
 
 `politicaldata` underwent changes for resubmission to CRAN.
 
-# 0.2.1
+# 0.1.2
 
 The dependency structure of `politicaldata` has been substantially reduced and bug fixes were made to the data generating scripts for the `pres_results` data frame that were causing vote shares to be divided by about 1e06.
+
+# 0.1.3
+
+The data underpinning various elections functions in `politicaldata` has been revised to reflect changes in MIT data sources.
