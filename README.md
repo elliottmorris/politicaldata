@@ -20,9 +20,10 @@ polls, election results, legislator information, and demographic data.
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
-Visit the package documentation website [here\!]()
+For more, visit the package documentation website
+[here\!](https://elliottmorris.github.io/politicaldata/)
 
-For more, see [the package’s project description my
+For *even* more, see [the package’s project description my
 blog](https://www.thecrosstab.com/project/politicaldata-package/) or
 [view the vignettes](https://github.com/elliottmorris/politicaldata)
 *(vignettes area work in progress)*. You can find many examples of how
@@ -30,11 +31,12 @@ these data are used in the real world via my interactive R course at
 DataCamp.com, [“Analyzing Election and Polling Data in
 R”](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r).
 
-I’ve written a detailed guide on using R for analyzing political data,
-[*A Guide to Analyzing (American) Political Data in
-R*](https://www.thecrosstab.com/project/r-politics-guide/), that uses
-many of the functions and datasets from this package. The example use
-cases extend beyond those in the function documentation and this readme.
+For *even even* more, I’ve written a detailed guide on using R for
+analyzing political data, [*A Guide to Analyzing (American) Political
+Data in R*](https://www.thecrosstab.com/project/r-politics-guide/), that
+uses many of the functions and datasets from this package. The example
+use cases extend beyond those in the function documentation and this
+readme.
 
 # Installation
 
@@ -136,8 +138,9 @@ head(house_ideo[1:5])
 
 # Vignettes
 
-*Come back later.* For now, [some examples can be found
-here](https://www.thecrosstab.com/project/r-politics-guide/).
+There are vignettes. They are in the package documentation. You can see
+them online in this repository or the docs
+[website](https://elliottmorris.github.io/politicaldata/).
 
 # Suggested related packages:
 

@@ -57,3 +57,8 @@ library(pkgdown)
 build_site()
 
 ```
+
+### To put it on the interwebs
+
+Home location is `https://elliottmorris.github.io/politicaldata/`
+
