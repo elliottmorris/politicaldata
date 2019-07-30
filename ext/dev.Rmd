@@ -1,3 +1,21 @@
+---
+title: "Dev process"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+An outline of different development processes.
+
+## Package
+
+### Some other stuff
+
+### For release
+
+```{r}
 ## commands used to check the build before pushing to cran
 
 # make sure we save the right internally-necessary data to sysdata.rda
@@ -26,3 +44,16 @@ devtools::spell_check()
 
 # ok, now you can release
 devtools::release()
+
+```
+
+## Docs website
+From: http://lbusettspatialr.blogspot.com/2017/08/building-website-with-pkgdown-short.html?m=1
+
+
+### To build the website
+```{r}
+library(pkgdown)
+build_site()
+
+```

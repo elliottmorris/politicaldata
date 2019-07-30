@@ -15,6 +15,7 @@ Description: Provides useful functions for obtaining commonly-used data
     MIT Election and Data Science Lab <https://www.electionlab.mit.edu>,
     and FiveThirtyEight <https://www.FiveThirtyEight.com>.
 License: MIT + file LICENSE
+URL: https://github.com/elliottmorris/politicaldata
 BugReports: https://github.com/elliottmorris/politicaldata/issues
 Encoding: UTF-8
 LazyData: true
@@ -23,9 +24,12 @@ Imports:
 Suggests: 
     testthat,
     dplyr,
-    magrittr, 
+    magrittr,
     tidyr,
-    ggplot2
+    ggplot2,
+    knitr,
+    rmarkdown
 Depends:
     R (>= 2.10)
 RoxygenNote: 6.1.1
+VignetteBuilder: knitr

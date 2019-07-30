@@ -2,6 +2,7 @@
 ^ext/scripts$
 ^ext/data$
 ^ext$
+^docs$
 ^README\.Rmd$
 ^LICENSE\.md$
 ^\.travis\.yml$
