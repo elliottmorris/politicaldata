@@ -8,5 +8,6 @@
 ^\.travis\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^cran-comments.md$
+^cran-comments\.md$
 ^CNAME$
+^_pkgdown\.yaml$

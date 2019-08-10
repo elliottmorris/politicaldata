@@ -21,7 +21,9 @@ polls, election results, legislator information, and demographic data.
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
 For more, visit the package documentation website
-[here\!](https://elliottmorris.github.io/politicaldata/)
+[here](https://elliottmorris.github.io/politicaldata/), especially the
+[the
+vignette](https://elliottmorris.github.io/politicaldata/articles/politicaldata.html).
 
 For *even* more, see [the package’s project description my
 blog](https://www.thecrosstab.com/project/politicaldata-package/) or
@@ -31,12 +33,11 @@ these data are used in the real world via my interactive R course at
 DataCamp.com, [“Analyzing Election and Polling Data in
 R”](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r).
 
-For *even even* more, I’ve written a detailed guide on using R for
-analyzing political data, [*A Guide to Analyzing (American) Political
-Data in R*](https://www.thecrosstab.com/project/r-politics-guide/), that
-uses many of the functions and datasets from this package. The example
-use cases extend beyond those in the function documentation and this
-readme.
+For *even even* more, I’m in the process of writing a detailed guide on
+using R for analyzing political data, [*Analyzing Political Data in R
+*](https://elliottmorris.github.io/R-political-data-book/), that uses
+many of the functions and datasets from this package. The example use
+cases extend beyond those in the function documentation and this readme.
 
 # Installation
 

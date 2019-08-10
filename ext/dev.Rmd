@@ -15,7 +15,7 @@ An outline of different development processes.
 
 ### For release
 
-```{r}
+```{r eval = F}
 ## commands used to check the build before pushing to cran
 
 # make sure we save the right internally-necessary data to sysdata.rda
@@ -52,13 +52,14 @@ From: http://lbusettspatialr.blogspot.com/2017/08/building-website-with-pkgdown-
 
 
 ### To build the website
-```{r}
+```{r eval = F}
 library(pkgdown)
 build_site()
 
 ```
 
 ### To put it on the interwebs
+Go to GitHub and turn on a page site
 
 Home location is `https://elliottmorris.github.io/politicaldata/`
 

@@ -1,0 +1,9 @@
+title: politicaldata
+url: https://elliottmorris.github.io/politicaldata/
+template:
+  params:
+#    ganalytics: "UA-124886828-1"
+    bootswatch: journal
+authors:
+  G. Elliott Morris:
+    href: https://thecrosstab.com

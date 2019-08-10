@@ -28,14 +28,11 @@ A R package for acquiring and analyzing political data — including polls, elec
 
 Author: [G. Elliott Morris](https://www.thecrosstab.com)
 
+For more, visit the package documentation website [here ](https://elliottmorris.github.io/politicaldata/), especially the [the vignette](https://elliottmorris.github.io/politicaldata/articles/politicaldata.html).
 
-For more, visit the package documentation website [here!](https://elliottmorris.github.io/politicaldata/)
+For _even_ more, see [the package’s project description my blog](https://www.thecrosstab.com/project/politicaldata-package/) or [view the vignettes](https://github.com/elliottmorris/politicaldata) *(vignettes area work in progress)*. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, [“Analyzing Election and Polling Data in R”](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r).
 
-
-For _even_ more, see [the package's project description my blog](https://www.thecrosstab.com/project/politicaldata-package/) or [view the vignettes](https://github.com/elliottmorris/politicaldata) _(vignettes area work in progress)_. You can find many examples of how these data are used in the real world via my interactive R course at DataCamp.com, ["Analyzing Election and Polling Data in R"](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r). 
-
-
-For _even even_ more, I've written a detailed guide on using R for analyzing political data, [_A Guide to Analyzing (American) Political Data in R_](https://www.thecrosstab.com/project/r-politics-guide/), that uses many of the functions and datasets from this package. The example use cases extend beyond those in the function documentation  and this readme.
+For _even even_ more, I'm in the process of writing a detailed guide on using R for analyzing political data, [*Analyzing Political Data in R *](https://elliottmorris.github.io/R-political-data-book/), that uses many of the functions and datasets from this package. The example use cases extend beyond those in the function documentation and this readme.
 
 
 # Installation

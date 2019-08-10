@@ -3,4 +3,7 @@ pkgdown: 1.3.0
 pkgdown_sha: ~
 articles:
   politicaldata: politicaldata.html
+urls:
+  reference: https://elliottmorris.github.io/politicaldata//reference
+  article: https://elliottmorris.github.io/politicaldata//articles
 
